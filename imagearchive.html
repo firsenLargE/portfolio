@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Archive</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .image-item {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      text-align: center;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .image-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .image-item p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="archive-grid">
+    <div class="image-item">
+      <img src="images/1.jpg" alt="Image 1">
+      <p>Hike</p>
+    </div>
+    <div class="image-item">
+      <img src="images/2.jpg" alt="Image 2">
+      <p>A Bachelor</p>
+    </div>
+    <div class="image-item">
+      <img src="images/3.jpg" alt="Image 3">
+      <p>Good Days</p>
+    </div>
+    <div class="image-item">
+      <img src="images/4.jpg" alt="Image 4">
+      <p>Clean</p>
+    </div>
+    <div class="image-item">
+      <img src="images/5.jpg" alt="Image 5">
+      <p>Sunny</p>
+    </div>
+        <div class="image-item">
+      <img src="images/6.jpg" alt="Image 5">
+      <p>Hikee</p>
+    </div>
+  </div>
+</body>
+</html>
