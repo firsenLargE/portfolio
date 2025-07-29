@@ -6,6 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles.css">
   <title>zion</title>
+  <script>
+    function accessArchive() {
+      const password = prompt("Enter password to access the archive:");
+      if (password === "4474") {
+        window.location.href = "https://text-archive.vercel.app/";
+      } else {
+        alert("Incorrect password.");
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -15,28 +25,28 @@
     <br>
     <div class="container">
       <img src="images/upscaled.png" alt="Photo" class="profile-img">
-      <p style="text-decoration: dotted;"><a href="https://github.com/sudershankhhadka">Quietly building systems — a minimalist coder</a>,
-        <a href="zionsarchive.com">been a observer</a>,
-       <a href="https://open.spotify.com/playlist/0F6Xv70fqA9ncZqux874Vx?si=dbf2e67a71a04f39"> always attached to music and songs</a>.
+      <p style="text-decoration: dotted;">
+        <a href="https://github.com/sudershankhhadka">Quietly building systems — a minimalist coder</a>,
+        <a href="#" onclick="accessArchive()">been a observer</a>,
+        <a href="https://open.spotify.com/playlist/0F6Xv70fqA9ncZqux874Vx?si=dbf2e67a71a04f39"> always attached to music and songs</a>.
       </p>
-
     </div>
   </header>
+
   <main>
     <h2><a href="https://github.com/sudershankhhadka">Quietly building systems — a minimalist coder</a></h2>
     <p>Building software that matters, exploring new technologies, and constantly learning. Currently working on web
       development and software engineering projects.</p>
 
+    <h2><a href="#" onclick="accessArchive()">been a observer</a></h2>
+    <p>analyzing the world without interfering, authenticity over attention, a seeker</p>
 
-    <h2><a href="https://text-archive.vercel.app/">been a observer</a></h2>
-    <p>analyzing the world without interfering,authenticity over attention,a seeker</p>
-
-    <h2> <a href="https://open.spotify.com/playlist/0F6Xv70fqA9ncZqux874Vx?si=dbf2e67a71a04f39">always attached to music and songs</a></h2>
+    <h2><a href="https://open.spotify.com/playlist/0F6Xv70fqA9ncZqux874Vx?si=dbf2e67a71a04f39">always attached to music and songs</a></h2>
     <p>Music is my constant companion, providing inspiration and relaxation. I enjoy exploring different genres and
       discovering new artists.</p>
 
-     <h2>Image Archive</h2>
-<p><a href="imagearchive.html">6 photos</a></p>
+    <h2>Image Archive</h2>
+    <p><a href="imagearchive.html">6 photos</a></p>
   </main>
 
   <footer>
